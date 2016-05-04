@@ -1,0 +1,6 @@
+<h2> #_# </h2>
+
+<div data-ng-repeat="foto in FotoIndexViewModel.fotos">
+  <p><a data-ui-sref="fotoShow({id: foto.id})">{{foto.body}}</a></p>
+  <a data-ui-sref="fotoEdit({id: foto.id})">Edit</a>
+</div>
